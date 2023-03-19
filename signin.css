@@ -1,0 +1,388 @@
+/* Oval outside */
+.oval {
+    position: absolute; 
+    top: 168px; 
+    left: 178px; 
+    width: 531px; 
+    height: 500px; 
+    background: #0055CC; 
+    border-radius: 50%; 
+    border-width: 1px; 
+    border-color: #006AFF; /* tertiary1-500 */
+    border-style: solid; 
+    box-shadow: 0px 17px 35px #171a1f, 0px 0px 2px #171a1f; /* shadow-xl */
+  }
+  /* Oval inside */
+.oval2 {
+    position: absolute; 
+    top: -30px; 
+    left: -31px; 
+    width: 591px; 
+    height: 559px; 
+    background: #174BE8AB; 
+    border-radius: 50%; 
+    border-width: 1px; 
+    border-color: #DEE1E659; /* neutral-300 */
+    border-style: solid; 
+    box-shadow: 0px 17px 35px #171a1f, 0px 0px 2px #171a1f; /* shadow-xl */
+  }
+  /*google button*/
+.google {
+    position: absolute; 
+    top: 35px; 
+    left: -125px; 
+    width: 50px; 
+    height: 36px; 
+    padding: 0 10px; 
+    display: block; 
+    align-items: center; 
+    justify-content: center; 
+    color: #C71610FF; 
+    background: #FEF1F1FF; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 18px; 
+    gap: 0px;
+    cursor: pointer;
+  }
+  .google .icon {
+   
+    width: 20px; 
+    height: 20px; 
+    fill: #C71610FF; 
+  }
+  /* Hover */
+  .google:hover {
+    color: #C71610FF; 
+    background: #FBD2D0FF; 
+  }
+  /* Pressed */
+  .google:hover:active {
+    color: #C71610FF; 
+    background: #F9B2B0FF; 
+  }
+  /* Disabled */
+  .google:disabled {
+    opacity: 0.4; 
+  }
+  /* facebook button*/
+.facebook {
+    position: absolute; 
+    top: 35px; 
+    left: -5px; 
+    width: 50px; 
+    height: 36px;
+    padding: 0 10px; 
+    display: block; 
+    align-items: center; 
+    justify-content: center; 
+    
+    opacity: 1; 
+    border: none; 
+    border-radius: 18px; 
+    gap: 0px; 
+  }
+  .facebook .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #335CA6FF; 
+  }
+  /* Hover */
+  .facebook:hover {
+    color: #335CA6FF; 
+    background: #D9E2F3FF; 
+  }
+  /* Pressed */
+  .facebook:hover:active {
+    color: #335CA6FF; 
+    background: #BFCEEBFF; 
+  }
+  /* Disabled */
+  .facebook:disabled {
+    opacity: 0.4; 
+  }
+  /* Apple button */
+.apple {
+    position: absolute; 
+    top: 35px; 
+    left: 105px; 
+    width: 50px; 
+    height: 36px;
+    padding: 0 10px; 
+    display: block; 
+    align-items: center; 
+    justify-content: center; 
+  
+    opacity: 1; 
+    border: none; 
+    border-radius: 18px; 
+    gap: 0px; 
+  }
+  .apple .icon {
+    width: 16px; 
+    height: 16px; 
+    fill: #565E6CFF; /* neutral-600 */
+  }
+  /* Hover */
+  .apple:hover {
+    color: #565E6CFF; /* neutral-600 */
+    background: #DEE1E6FF; /* neutral-300 */
+  }
+  /* Pressed */
+  .apple:hover:active {
+    color: #565E6CFF; /* neutral-600 */
+    background: #CFD2DAFF; /* neutral-350 */
+  }
+  /* Disabled */
+  .apple:disabled {
+    opacity: 0.4; 
+  }
+  /*blue rectangle on the right*/
+.container {
+    font-family: Epilogue;
+    font-style: italic;
+    position: absolute; 
+    top: 1px; 
+    left: 697px; 
+    width: 910px; 
+    height: 900px; 
+    background: #0055CC; /* tertiary1-600 */
+    border-radius: 0px; 
+  }
+  /* Logo */
+.image1 {
+    position: absolute; 
+    top: 1px; 
+    left:52px; 
+    width: 126px; 
+    height: 37px; 
+    border-radius: 4px; /* border-m */
+  }
+  /*Welcome to idea*/
+  .welcome {
+    position: absolute; 
+    top: 58px; 
+    left: 240px; 
+    width: 676px; 
+    height: 412px; 
+    font-family: Epilogue; /* Heading */
+    font-size: 55px; 
+    line-height: 56px; 
+    color: #FAFAFBFF; /* neutral-100 */
+  }
+  /* Monitor image*/
+.image2 {
+    position: absolute; 
+    top: 151px; 
+    left: 885px; 
+    height: 125px;
+    width: 130px;
+    border-radius: 0px; 
+  }
+  /*WelcomeBack*/
+.heading {
+    position: absolute; 
+    top: 140px; 
+    left: 195px; 
+    width: 539px; 
+    height: 69px; 
+    font-family: Epilogue; /* Heading */
+    font-size: 46px; 
+    line-height: 56px; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+  /*signup*/
+  .signuptxttop {
+    font-style: Bold;
+    position: absolute; 
+    top: 73px; 
+    left: 558px; 
+    font-family: Inter; /* Body */
+    font-size: 21px; 
+    line-height: 32px; 
+    color: #1C49D0FF; /* tertiary1-600 */
+  }
+  
+  /*email*/
+.textbox2 {
+    position: absolute; 
+    top: 299px; 
+    left: 98px; 
+    opacity: 1; 
+  }
+  .textbox2 input {
+    width: 500px; 
+    height: 69px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    font-family: Inter; /* Body */
+    font-size: 18px; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 4px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+  }
+  .textbox2 .label {
+    font-size: 22px; 
+    line-height: 26px; 
+  }
+  /* hover */
+  .textbox2 input:hover {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  /* focused */
+  .textbox2 input:focused {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* disabled */
+  .textbox2 input:disabled {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  .textbox2 :disabled + .icon, .textbox :disabled + .icon + .icon {
+    fill: #171A1FFF; /* neutral-900 */
+  }
+  /*password*/
+.textbox4 {
+    position: absolute; 
+    top: 410px; 
+    left: 96px; 
+    opacity: 1; 
+  }
+  .textbox4 input {
+    width: 500px; 
+    height: 69px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    font-family: Inter; /* Body */
+    font-size: 18px; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 4px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+  }
+  .textbox4 svg {
+    position: absolute; 
+    top: 16px; 
+    right: 16px; 
+    width: 20px; 
+    height: 20px; 
+    fill: #171A1FFF; /* neutral-900 */
+  }
+  .textbox4 .label {
+    font-size: 22px; 
+    line-height: 26px; 
+  }
+  /* hover */
+  .textbox4 input:hover {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  /* focused */
+  .textbox4 input:focused {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #FFFFFFFF; /* white */
+  }
+  /* disabled */
+  .textbox4 input:disabled {
+    color: #BCC1CAFF; /* neutral-400 */
+    background: #F3F4F6FF; /* neutral-200 */
+  }
+  .textbox4 :disabled + .icon, .textbox4 :disabled + .icon + .icon {
+    fill: #171A1FFF; /* neutral-900 */
+  }
+  /*Loginin button*/
+  .button {
+      position: absolute; 
+      top: 618px; 
+      left: 98px; 
+      width: 500px; 
+      height: 53px; 
+      padding: 0 16px; 
+      display: block; 
+      align-items: center; 
+      justify-content: center; 
+      font-family: Inter; /* Body */
+      font-size: 18px; 
+      line-height: 26px; 
+      color: #FFFFFFFF; /* white */
+      background: #0055CC; /* tertiary1-600 */
+      opacity: 1; 
+      border: none; 
+      cursor: pointer;
+      border-radius: 4px; /* border-m */
+      
+    }
+    /* Hover */
+    .button:hover {
+      background-color: #1C49D0FF; /* tertiary1-600 */
+      cursor: pointer;
+    }
+    /*Don't have an account?*/
+    .text1 {
+      position: absolute; 
+      top: 698px; 
+      left: 243px; 
+      font-family: Inter; /* Body */
+      font-size: 18px; 
+      line-height: 22px; 
+      color: #171A1FFF; /* neutral-900 */
+    }
+    /*or sign up with*/
+    .text7 {
+      position: absolute; 
+      top: 55px; 
+      left: 42px; 
+      width: 140px; 
+      height: 27px; 
+      font-family: Inter; /* Body */
+      font-size: 18px; 
+      line-height: 22px; 
+      color: #323842FF; /* neutral-700 */
+    }
+    /*Login To Continue..*/
+    .text3 {
+      position: absolute; 
+      top: 22px; 
+      left: 718px; 
+      width: 350px; 
+      height: 56px; 
+      font-family: Epilogue; /* Heading */
+      font-size: 38px; 
+      line-height: 28px; 
+      color: #FAFAFBFF; /* neutral-100 */
+    }
+    /*INNOVATIVE DESIGN AND ENGINEERING ANALYSIS*/
+    .text4 {
+      position: absolute; 
+      top: -175px; 
+      left: 690px; 
+      width: 477px; 
+      height: 56px; 
+      font-family: Inter; /* Body */
+      font-size: 13px; 
+      line-height: 28px; 
+      color: #FAFAFBFF; /* neutral-100 */
+    }
+    /* Checkbox for Remember Me */
+    .checkbox1 {
+        position: absolute;
+        height: 150px;
+        width: 200px; 
+        top: -210px; 
+        left: -180px; 
+        font-family: Inter; /* Body */
+    }
+    /*Forgot Password*/
+    .text9 {
+        position: absolute; 
+        top: -3px; 
+        left: 365px; 
+        width: 200px;
+        font-family: Inter; /* Body */
+        font-size: 17px; 
+        line-height: 26px; 
+        color: #1C49D0FF; /* tertiary1-600 */
+      }
